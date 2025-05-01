@@ -69,6 +69,10 @@ body {
 	max-width: 50%;
 }
 
+.sign_up_button {
+	max-width: 12%;
+}
+
 /* Links and Lists */
 a {
 	text-decoration: none;
@@ -108,4 +112,22 @@ h2 {
 .image_placeholder {
 	font-size: 18px;
 	color: #E5E7EB;
+}
+
+.sign_up_button {
+	background-color: #3882f6;
+	font-size: 20px;
+	border-radius: 4px;
+	text-align: center;
+	color:#E5E7EB;
+	font-weight: 800;
+}
+
+.sign_up_button:link, .sign_up_button:visited {
+	color:#E5E7EB;
+}
+
+.sign_up_button:active, .sign_up_button:hover {
+	background-color: #0f59d8;
+	color:#E5E7EB;
 }
